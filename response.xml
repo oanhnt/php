@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResponsePrezentacjaOferty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="1%20wariant.xsd">
+	<PrezentacjaJedzenia>
+		<Kontakt></Kontakt>
+		<Danie>
+			<NazwaDania></NazwaDania>
+			<Ilosc></Ilosc>
+			<Koszt></Koszt>
+			<ID_Stanu></ID_Stanu>
+			<Wymiana></Wymiana>
+		</Danie>
+	</PrezentacjaJedzenia>
+	<PrezentacjaAlkoholu>
+		<Kontakt></Kontakt>
+		<Alkohol>
+			<NazwaAlkoholu></NazwaAlkoholu>
+			<ID_Typu>białe półwytrawne</ID_Typu>
+			<Ilosc></Ilosc>
+			<Koszt></Koszt>
+			<ID_Stanu>jest</ID_Stanu>
+			<Wymania></Wymania>
+		</Alkohol>
+	</PrezentacjaAlkoholu>
+</ResponsePrezentacjaOferty>
