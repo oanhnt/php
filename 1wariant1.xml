@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResponsePrezentacjaOferty >
+	
+		
+		<Danie>
+			<NazwaDania>aa</NazwaDania>
+			<Ilosc>22</Ilosc>
+			<Koszt>22</Koszt>
+			<ID_Stanu>jest</ID_Stanu>
+			<Wymiana>33</Wymiana>
+		</Danie>
+		<Danie>
+			<NazwaDania>bbb</NazwaDania>
+			<Ilosc>22</Ilosc>
+			<Koszt>22</Koszt>
+			<ID_Stanu>jest</ID_Stanu>
+			<Wymiana>33</Wymiana>
+		</Danie>
+		<Danie>
+			<NazwaDania>ccc</NazwaDania>
+			<Ilosc>22</Ilosc>
+			<Koszt>22</Koszt>
+			<ID_Stanu>jest</ID_Stanu>
+			<Wymiana>33</Wymiana>
+		</Danie>
+	
+	
+</ResponsePrezentacjaOferty>
