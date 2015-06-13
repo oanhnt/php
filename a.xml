@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestWyslanieListyImpreza>
+  <ListJedzenia>
+    <danie>
+      <ID_D/>
+      <Nazwadania/>
+      <Skladniki/>
+      <Datawyslania/>
+      <Dataimprezy/>
+    </danie>
+    <danie>
+    <ID_D>g</ID_D><Nazwadania>g</Nazwadania><Skladniki>g</Skladniki><Datawyslania>g</Datawyslania><Dataimprezy>g</Dataimprezy></danie><danie><ID_D/><Nazwadania/><Skladniki/><Datawyslania/><Dataimprezy/></danie></ListJedzenia><ListAlkoholu><Alkohol><ID_A/><NazwaAlkoholu/><Typ_A>wybierz rodzaj alkoholu</Typ_A><Ilosc/><Datawyslania_A/><Dataimprezy_A/></Alkohol><Alkohol><ID_A>h</ID_A><NazwaAlkoholu>h</NazwaAlkoholu><Typ_A>białe półwytrawne</Typ_A><Ilosc>g</Ilosc><Datawyslania_A>h</Datawyslania_A><Dataimprezy_A>h</Dataimprezy_A></Alkohol><Alkohol><ID_A/><NazwaAlkoholu/><Typ_A>wybierz rodzaj alkoholu</Typ_A><Ilosc/><Datawyslania_A/><Dataimprezy_A/></Alkohol></ListAlkoholu></RequestWyslanieListyImpreza>
