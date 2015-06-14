@@ -6,7 +6,11 @@
     }
 ?>
 <h3>Current order</h3>
-<?php include "views/listOrder.php";?>
+<?php
+    if(isset($_GET['order'])){
+        include "views/listOrder.php";
+    }
+?>
 
 <h3>add new</h3>
 <table border="0">
