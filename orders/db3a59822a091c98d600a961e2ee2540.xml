@@ -51,6 +51,6 @@
                 <Datawyslania>k343</Datawyslania>
                 <Dataimprezy>sdfasdf</Dataimprezy>
             </food>
-        </foods>
+        <food><ID_D>sadfasdfasdfasd</ID_D><Nazwadania>asdf</Nazwadania><Ilosc/><Skladniki/><Datawyslania/><Dataimprezy/></food></foods>
     </order>
 </xml>
