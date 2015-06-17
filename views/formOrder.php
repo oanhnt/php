@@ -56,7 +56,7 @@
                 </table>
             </form>
         </td>
-
+<!--
         <td width="100px"></td>
 
         <td>
@@ -105,6 +105,7 @@
                 </table>
             </form>
         </td>
+		-->
     </tr>
 </table>
 
