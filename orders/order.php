@@ -1,10 +1,4 @@
 <?php
-/**
- * Project EXP Laravel
- * User: nguyenhieptn
- * Date: 6/14/2015
- * Time: 3:54 PM
- */
 class Order
 {
     var $_number;
@@ -42,8 +36,20 @@ class Order
      */
     public function addDrink($food)
     {
-        var_dump($food);
-        echo " need code add drink here ";
+	$xml = simplexml_load_file("orders/".$this->_number.".xml") or die("Error: Cannot create object");
+        //check if foods alreayd exist
+        if(!isset($xml->order->foods)){
+            $xml->order->addChild("foods");
+        }
+
+        //create new food order
+        $xfood = $xml->order->foods->addChild("food");
+        foreach($food as $key => $value){
+            $xfood->addChild($key,$value);
+        }
+
+        $xml->asXML("orders/".$this->_number.".xml");
+        header('Location: ' . $_SERVER['HTTP_REFERER'].'&message=success'.'&order='.$this->_number);
         exit;
 
     }
